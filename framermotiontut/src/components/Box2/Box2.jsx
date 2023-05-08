@@ -11,6 +11,10 @@ export default function Box2() {
       <motion.div 
       
       className='box'
+      drag
+      dragConstraints = {{
+        right: 20
+      }}
       whileTap={{
         scale: 0.9,
         backgroundColor: "orange"
