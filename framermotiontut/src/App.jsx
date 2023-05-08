@@ -1,7 +1,8 @@
 
 import viteLogo from '/vite.svg'
 import './App.css'
-import Box1 from './components/box1/box1'
+import Box1 from './components/Box1/Box1'
+import Box2 from './components/Box2/Box2'
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
   return (
    <div className='App'>
     <Box1 />
+    <Box2 />
+
    </div>
       
         
