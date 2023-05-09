@@ -35,7 +35,7 @@ export default function box5() {
         })
       }}> Square</button>
       <button onClick={()=> {
-        control.stop
+        control.stop()
       }}>Stop</button>
       <motion.div 
       

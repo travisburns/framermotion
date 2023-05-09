@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { color, motion } from "framer-motion"
+import { color, motion, useScroll } from "framer-motion"
 
 
 export default function Box2() {
@@ -11,18 +11,11 @@ export default function Box2() {
       <motion.div 
       
       className='box'
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      drag
-      dragConstraints = {{
-        right: 20
-      }}
-      whileTap={{
-        scale: 0.9,
-        backgroundColor: "orange"
-      }}
+      initial={{X: 90}}
+      whileInView={{x: 200}}
+      viewport={{ once: false}}
       
-      >
+     >
       
 
       </motion.div>
