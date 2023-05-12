@@ -7,6 +7,8 @@ import Box3 from './components/Box3/Box3'
 import Box4 from './components/Box4/Box4'
 import Box5 from './components/Box5/Box5'
 import Box6 from './components/Box6/Box6'
+import Box7 from './components/Box7/Box7'
+
 function App() {
   
 
@@ -18,7 +20,7 @@ function App() {
     <Box4 />
     <Box5 />
     <Box6 />
-
+    <Box7 />
 
    </div>
       

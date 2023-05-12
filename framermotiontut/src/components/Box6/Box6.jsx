@@ -14,7 +14,7 @@ export default function Box2() {
       initial={{X: 90}}
       whileInView={{x: 200}}
       viewport={{ once: false}}
-      
+      transition={{ duration: 1, delay: 2 }}
      >
       
 
