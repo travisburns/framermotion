@@ -52,7 +52,7 @@ const box7 = () => {
          
         >
         
-      {[1, 2, 3].map(box => {
+      {[1, 2, 3, 4, 5].map(box => {
           return ( 
           <motion.li 
           className='boxitem'

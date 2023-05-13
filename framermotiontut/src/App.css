@@ -27,7 +27,7 @@
 .boxitem {
   width: 0.5rem;
   height: 0.5rem;
-  background-color: white;
+  background-color: rgb(255, 2, 2);
   padding: 3rem;
   list-style: none;
   margin: 3px;
